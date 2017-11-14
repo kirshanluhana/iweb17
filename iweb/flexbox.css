@@ -1,0 +1,100 @@
+body {
+	 word-wrap: break-word;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: Teal;
+}
+.container-color {
+  
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  min-height: 80px;
+  color: #fff;
+}
+
+.body-container {
+	display: flex;
+	justify-content: center;
+  	word-wrap: break-word;
+}
+
+.sidebar {
+  width: 10%;
+  display: flex;
+  flex-direction: column; 
+  background-color: #666;
+  color: #fff;
+}
+.content-container {
+	min-width: 90%;
+	height: auto;
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+}
+.item {
+	flex: 1;
+	min-width: 30%;
+	height: 150px;
+	border: 1px solid #fff;
+}
+.flex-container {
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+	min-width: 100%;
+	flex: 1;
+}
+.flex-container-1 {
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+	min-width: 30%;
+	flex: initial;
+}
+.flex-container-r {
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+}
+.four {
+	background-color: #00CED1;
+}
+.five {
+	background-color: #B0E0E6;
+}
+.six  {
+	background-color: #32CD32;
+}
+.seven {
+	background-color: #4682B4;
+}
+.eight {
+	 background-color: #00FA9A;
+}
+.footer {
+	display: flex;
+	justify-content: flex-start ;
+	flex-direction: column; 
+  	word-wrap: break-word;
+}
+.border{
+    border-width: 3px;
+    border-style: solid;
+    border-color: #000;
+}
+
+.code {
+	font-family: monospace;
+}
+.color-white {
+	color: #fff;
+}

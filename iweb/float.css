@@ -1,86 +1,13 @@
-.container{
-  display:grid;
-}
-  
-.container-color {
-  background-color: #fff;
-  color: #fff;
-}
-  
-.one {
+.floating-box {
   float: left;
-  background-color: Teal;
-}
-.col-box-1{
-  float: left;
-  color: #000;
-}
-
-.col-box-2{
-  float: left;
-  color: #000;
+  width: 20em;
+  height: 7em;
+  margin: 10px;
+  border: 0.2em solid rgb(33, 77, 173);  
 }
 
-.col-box-3{
-  float: left;
-  color: #000;
-}
-
-.two {
-  float: left;
-  background-color: #00CED1;
-}
-
-.sidebar {
-  float: left;
-  background-color: #666;
-}
-
-.three {
-  float: left;
-  background-color: #B0E0E6;
-  color: #000;
-}
-
-.four {
-  float: left;
-  background-color: #32CD32;
-}
-
-.five {
-  float: left;
-  background-color: #4682B4;
-}
-
-.six {
-  float: left;
-  background-color: #00FA9A;
-}
-
-.footer {
-  float: left;
-  color: #000;
-}
-
-.border{
-  border-width: 3px;
-  border-style: solid;
-  border-color: #000;
-}
-.border-white {
-  border-width: 3px;
-  border-style: solid;
-  border-color: #fff;
-}
-
-.text-center {
-  text-align: center;
-}
-
-body {
-  word-wrap: break-word;
-}
-
-.code {
-  font-family: monospace;
+.after-box {
+  clear: left;
+  border: 3px solid black;  
+  height: 10em;    
 }

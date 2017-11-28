@@ -1,104 +1,36 @@
-<HTML>
-    <HEAD>
-    
-    <title>Float-InfoArchitecture</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="float.css">
-    </HEAD>
-    
-    <BODY>
-    
-    <div class="container container-color">
-        <div class="one border text-center">
-            <h1>Comparision between CSS Grid, Flexbox and Float</h1>
-            <h2>Float</h2>
-        </div>
-      <div class="col-box-1 border">Grid
-        <div class="code">
-        <br>
-          display: float;
-         <br>
-          grid-template-columns: 10% 1fr 1fr 1fr;
-          <br>
-          grid-gap: 10px;
-          <br>
-          grid-auto-rows: minmax(80px, auto); 
-         </div>
-      </div>
-      <div class="col-box-2 border">Flexbox
-      <pre>
-      
-      </pre>
-      </div>
-      <div class="col-box-3 border">Float</div>
-      
-      <div class="sidebar border">SideBar
-        <div class="code">
-        <br>
-    grid-column: 1;
-    <br>
-    grid-row: 2 / 7;
-        </div>
-      </div>
-      
-      <div class="two border">
-        <div class="code">
-        <br>
-        grid-column: 2 / 5;
-        <br>
-        grid-row: 3 / 5;
-        <br>
-        background-color: #00CED1;
-        </div>	
-      </div>
-      <div class="three border">
-      <div class="code">
-        <br>
-        grid-column: 2 / 4;
-        <br>
-        grid-row: 5 / 7;
-      </div>
-      </div>
-      <div class="four border">
-      <div class="code">
-        <br>
-        grid-column: 4;
-        <br>
-        grid-row: 5;  
-      </div>
-      </div>
-      <div class="five border">
-        <div class="code">
-        <br>
-        grid-column: 3;
-        <br>
-        grid-row: 6;
-        </div>
-      </div>
-      <div class="six border">
-        <div class="code">
-        <br>
-        grid-column: 4;
-        <br>
-        grid-row: 6;
-        </div>
-      </div>
-      
-      <div class="footer border"><h3>Footer - InfoArchitecture assignment</h3>  
-            <ul>
-              <li>Ahmed Ezzat</li>
-              <li>Anil Kumar Tilanthe</li>
-              <li>Kirshan Kumar Luhana</li>
-            </ul>
-            
-        <div class="code">
-        <br>
-        grid-column: 1 / 5;
-        <br>
-        grid-row: 7;
-        </div>
-      </div>
-    </div>
-    
-    </BODY>
-    </HTML>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.floating-box {
+    float: left;
+    width: 20em;
+    height: 7em;
+    margin: 10px;
+    border: 0.2em solid rgb(33, 77, 173);  
+}
+
+.after-box {
+    clear: left;
+    border: 3px solid black;  
+    height: 10em;    
+}
+</style>
+</head>
+<body>
+
+<h2>Using float property to float containers next to each other</h2>
+
+<div class="floating-box">First container</div>
+<div class="floating-box">Second container</div>
+<div class="floating-box">Third container</div>
+<div class="floating-box">4th container</div>
+<div class="floating-box">5th container</div>
+<div class="floating-box">6th container</div>
+<div class="floating-box">7th container</div>
+<div class="floating-box">8th container</div>
+
+<div class="after-box">Footer?</div>
+
+</body>
+</html>

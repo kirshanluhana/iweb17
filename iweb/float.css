@@ -1,0 +1,13 @@
+.floating-box {
+  float: left;
+  width: 20em;
+  height: 7em;
+  margin: 10px;
+  border: 0.2em solid rgb(33, 77, 173);  
+}
+
+.after-box {
+  clear: left;
+  border: 3px solid black;  
+  height: 10em;    
+}
